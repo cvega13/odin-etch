@@ -1,0 +1,31 @@
+.interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.cell {
+    border: 1px solid black;
+}
+
+.hovered {
+    background-color: black;
+}
+
+button {
+    margin: 10px;
+    font-size: larger;
+    font-weight: 900;
+}
+
